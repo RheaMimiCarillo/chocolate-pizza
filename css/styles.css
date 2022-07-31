@@ -62,7 +62,7 @@ footer h3{
   font-family: 'Ibarra Real Nova', serif;
 }
 
-hr { 
+hr  { 
   height: 20px; 
   background-image: url(/img/hr-img.png); 
   background-repeat: repeat-x; 
@@ -90,6 +90,11 @@ hr {
   }
 
   #s-logo {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  .v-info {
     display: flex;
     justify-content: center;
     margin: 10px;
@@ -144,5 +149,10 @@ article section {
   top:40px;
 }
 
-
-  
+#print {
+  flex-direction: row-reverse;   
+  display: flex;
+ justify-items: flex-end;
+ align-items: flex-start;
+ align-items: flex-end;
+ }
