@@ -108,13 +108,15 @@ hr  {
     
   }
 
-.form-container{
-  position: absolute;
-  align-items: center;
-  left: 30%;
-  transform: translate(-50%, -50%);
+.form-container {
+  margin: 0;
+  padding: 0;
+  top: 110%;
+  left: 23%;
+  justify-content: left;
+  position: absolute; 
   
-}
+ }
 
 article p {
   font-size: medium;
