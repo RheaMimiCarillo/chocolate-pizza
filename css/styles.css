@@ -110,12 +110,11 @@ hr  {
 
 .form-container {
   margin: 0;
-  padding: 0;
-  top: 110%;
-  left: 23%;
-  justify-content: left;
-  position: absolute; 
-  
+ padding: 0;
+ top: 110%;
+ left: 23%;
+ justify-content: left;
+ position: absolute; 
  }
 
 article p {
@@ -158,3 +157,4 @@ article section {
  align-items: flex-start;
  align-items: flex-end;
  }
+ 
